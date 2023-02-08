@@ -11,9 +11,10 @@ sudo dotnet smsmanager.dll
 新增短信转发至企业微信自建应用功能
 
  添加独立版本，无需安装dotnet runtime
+ 
  食用方法：在debian输入sudo apt install libicu67
+ 
  安装libicu，安装好后设置debian系统为中文（自行百度），接着下载本程序的独立版本(smsmanager_independent.zip)，解压上传至debian，打开本程序根目录，输入
  sudo chmod 777 ./smsmanager
- 设置运行权限，接着输入
- sudo ./smsmanager
- 即可运行短信转发程序
+ 
+ 设置运行权限，接着输入sudo ./smsmanager即可运行短信转发程序
